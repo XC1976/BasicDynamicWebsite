@@ -1,0 +1,123 @@
+/* 
+Specific CSS to product.php 
+*/
+
+main {
+    min-height: 60vh;
+}
+.prodetails {
+  display: flex;
+}
+
+.prodetails img {
+    border-radius: 10px;
+}
+
+/* Image part */
+.prodetails .single-pro-image {
+  width: 40vw;
+  margin-right: 50px;
+}
+.prodetails .single-pro-image .small-img-group {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 7px;
+}
+.prodetails .single-pro-image .small-img-group .small-img-col {
+  flex-basis: 24%;
+  cursor: pointer;
+}
+
+/* Descriptio part */
+.prodetails .single-pro-details {
+    width: 50%;
+    padding-top: 30px;
+}
+
+.prodetails .single-pro-details h3 {
+    margin-top: 30px;
+    font-weight: normal;
+    font-size: 20px;
+}
+
+
+.prodetails .single-pro-details h4 {
+    padding: 40px 0 20px 0;
+}
+
+.prodetails .single-pro-details h2 {
+    font-size: 26px;
+}
+
+.prodetails .single-pro-details input {
+    font-size: 16px;
+    margin-right: 10px;
+    cursor: pointer;
+    width: 80px;
+    height: 40px;
+    padding: 5px 10px; 
+    background-color: white; 
+    border: 1px solid #ccc;
+    border-radius: 5px; 
+}
+.prodetails .single-pro-details button {
+    padding: 15px 20px;
+    margin-left: 10px;
+    border: none;
+    background-color: var(--primary-color-1);
+    border-radius: 7px;
+    color: white;
+    font-weight: 600;
+    cursor: pointer;
+    transition: 0.7s ease;
+    white-space: nowrap;
+}
+.prodetails .single-pro-details button:hover {
+    background-color: var(--primary-color-2);
+}
+
+.prodetails .single-pro-details span {
+    line-height: 25px;
+}
+
+/* Responsive page */
+
+@media screen and (max-width: 800px) {
+    .prodetails {
+        flex-direction: column;
+        align-items: center;
+        padding: 0;
+    }
+    .single-pro-details {
+        text-align: center;
+    }
+    .prodetails .single-pro-image {
+        width: 95vw;
+        margin-right: 0px;
+    }
+    .prodetails .single-pro-details h4 {
+        padding: 10px 0;
+        min-width: 100%;
+    }
+    .formProduct {
+        display: flex;
+        justify-content: center;
+    }
+    .prodetails .single-pro-details {
+        width: 95%;
+        padding-top: 30px;
+    }
+    .prodetails .single-pro-details input {
+        margin: 0;
+        margin-right: 15px;
+    }
+    .prodetails .single-pro-details button {
+        margin: 0;
+    }
+}
+
+span {
+    overflow-wrap: break-word;
+    word-break: break-all;
+    width: 100%;
+}

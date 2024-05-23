@@ -1,0 +1,55 @@
+/* Specific CSS to shop.php in the marketplace */
+
+.pagination {
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+}
+.pagination .paginationImg {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.pagination .paginationImg  {
+    width: 100%;
+}
+.pagination a {
+    background-color: #088178;
+    max-width: 50px;
+    padding: 15px 20px;
+    border-radius: 5px;
+    color: white;
+    font-weight: 600;
+    margin: 0 3px;
+    transition: 0.2s ease background-color;
+}
+.pagination a:hover {
+    background-color: #066861;
+}
+
+/* No product h1 pages */
+.noProducts {
+    margin: 100px 0 200px 0;
+}
+
+.productHeader {
+    display: flex;
+    align-items: center;
+}
+.productHeader .productHeaderTitle {
+    flex: 4;
+}
+.productHeader .productHeaderButton {
+    flex: 1;
+}
+
+.productHeader a {
+    background-color: #5BBCFF;
+    padding: 10px 15px;
+    color: white;
+    font-weight: 600;
+    border-radius: 20px;
+    width: 200px;
+    height: 40px;
+    font-size: 16px;
+}

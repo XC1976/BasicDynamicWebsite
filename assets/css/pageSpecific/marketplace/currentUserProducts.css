@@ -1,0 +1,128 @@
+main {
+    min-height: 60vh;
+    margin-top: 110px;
+    padding: 0 20vw;
+    margin-bottom: 60px;
+}
+h1 {
+    text-align: center;
+}
+
+.products h2 {
+    font-size: 25px;
+}
+.products img {
+    width: 130px;
+    border-radius: 10px;
+}
+
+.products h3 {
+    margin: 15px 0;
+}
+
+.products a {
+    margin-left: 10px;
+    color: #2B3467;
+    text-decoration: underline;
+}
+
+.products button {
+    margin-top: 20px;
+    border-radius: 5px;
+    background-color: #E72929;
+    color: white;
+    padding: 10px 20px;
+    font-weight: 600;
+    cursor: pointer;
+    transition: 0.2s ease;
+}
+.products button:hover {
+    background-color: #cc2222;
+}
+
+.products button:active {
+    transform: scale(0.98);
+}
+
+.individualProduct {
+    margin-top: 30px;
+    background-color: white;
+    border-radius: 20px;
+    padding: 10px 50px;
+}
+
+.individualProductHeader {
+    display: flex;
+    align-items: center;
+}
+.individualProductHeader h2 {
+    flex: 2;
+}
+.individualProductHeader span {
+    flex: 1;
+}
+
+.individualProductBody {
+    display: flex;
+    align-items: center;
+}
+
+.individualProductBody .image {
+    flex: 1;
+}
+
+.individualProductBody div {
+    flex: 2;
+}
+.individualProductBody2 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.products a {
+    margin-top: 10px;
+}
+
+.mainHead {
+    display: flex;
+    align-items: center;
+}
+.mainHead h1 {
+    flex: 5;
+}
+.mainHead a {
+    flex: 1;
+}
+.mainHead a {
+    background-color: #0079FF;
+    color: white;
+    text-align: center;
+    padding: 10px 20px;
+    border-radius: 20px;
+    cursor: pointer;
+    transition: 0.2s ease;
+}
+.mainHead a:hover {
+    background-color: #085ec2;
+}
+
+.mainHead a:active {
+    transform: scale(0.98);
+}
+
+@media screen and (max-width: 800px) {
+    main {
+        padding: 0 30px;
+        margin-top: 70px;
+        text-align: center;
+    }
+    .individualProduct {
+        padding: 10px 20px;
+    }
+    .individualProductHeader {
+        flex-direction: column;
+    }
+    .individualProductBody {
+        flex-direction: column;
+    }
+}

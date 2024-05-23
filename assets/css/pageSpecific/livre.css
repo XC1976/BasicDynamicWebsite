@@ -1,0 +1,488 @@
+main {
+  margin-top : 100px;
+}
+
+/* 
+Specific CSS to product.php 
+*/
+
+.prodetails {
+    display: flex;
+}
+
+.prodetails img {
+    border-radius: 10px;
+}
+
+/* Image part */
+.prodetails .single-pro-image {
+  width: 35vw;
+  margin-right: 50px;
+  padding: 20px;
+}
+.prodetails .single-pro-image .small-img-group {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 7px;
+}
+.prodetails .single-pro-image .small-img-group .small-img-col {
+  flex-basis: 24%;
+  cursor: pointer;
+}
+
+/* Descriptio part */
+.prodetails .single-pro-details {
+    width: 50%;
+    padding-top: 30px;
+}
+
+
+.prodetails .single-pro-details h2 {
+    font-size: 26px;
+}
+
+.prodetails .single-pro-details input {
+    width: 50px;
+    height: 47px;
+    padding-left: 10px;
+    font-size: 16px;
+    margin-right: 10px;
+    cursor: pointer; 
+    padding: 5px 10px; 
+    background-color: white; 
+    border: 1px solid #ccc;
+    border-radius: 5px; 
+}
+button {
+    padding: 10px 20px;
+    border: none;
+    background-color: var(--primary-color-1);
+    border-radius: 7px;
+    color: white;
+    font-weight: 600;
+    cursor: pointer;
+    transition: 0.7s ease;
+    white-space: nowrap;
+    
+}
+button:hover {
+    background-color: var(--primary-color-2);
+}
+button:active {
+  transform: scale(0.97);
+}
+
+.prodetails .single-pro-details span {
+    line-height: 25px;
+}
+
+.synopsis {
+    margin-top: 20px;
+    padding: 10px;
+    border: 1px solid #c9c9c9;
+    border-radius: 10px;
+    margin-bottom: 10px;
+    
+    background-color: #f5f5ff;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+.synopsis h3 {
+    margin-bottom : 20px;
+}
+
+.genre {
+    padding: 5px;
+}
+
+.date {
+    margin-bottom : 50px;
+}
+  
+/* REVIEW SECTION */
+.review {
+    border: 1px solid #c9c9c9;
+    margin : 20px 60px 20px 60px;
+    padding: 0px 60px 0px 60px;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+}
+.reviews-header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+.reviews-header *{
+    margin: 10px;
+    
+}
+
+/* USER POSTS */
+/* Styles for the post */
+.posts-container .post{
+    width: 100%;
+  }
+.posts-container {
+    width: 70%;
+}
+
+.indentation {
+    display: flex;
+    flex-direction: row;
+    height: 90%;
+}
+.vertical-bar {
+    border-left: 2px solid #c9c9c9;
+    margin: 10px 15px;
+    align-self: stretch;
+
+}
+  
+.post {
+    display: flex;
+    align-items: flex-start;
+    padding: 10px;
+    border: 1px solid #c9c9c9;
+    border-radius: 10px;
+    margin-left: 5px;
+    margin-bottom: 10px;
+    
+    background-color: #f5f5ff;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+.prodetails .fa-star,
+.prodetails .fa-star-half-alt,
+.review .fa-star,
+.review .fa-star-half-alt {
+    font-size: 18px;
+    color: rgb(243, 181, 25);
+    margin-bottom: 10px;
+}
+
+.avatar {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  min-width: 120px;
+}
+.avatar div {
+  color: #444;
+}
+
+.avatar img {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    margin-bottom: 5px;
+}
+
+.user-info {
+    text-align: center;
+}
+
+.full-name {
+    font-weight: bold;
+}
+
+.username {
+    color: #666;
+}
+
+.content {
+    margin-top: 10px;
+}
+
+.message {
+    font-size: 16px;
+    margin-bottom: 5px;
+    
+}
+
+.time {
+    color: #666;
+    font-size: 12px;
+    margin-bottom: 10px;
+}
+
+.actions {
+    display: flex;
+    align-items: center;
+}
+
+.like-counter {
+    font-size: 18px;
+    margin: 0px 20px 0px 5px;
+    border: 1px solid #b3b3b3;
+    border-radius: 100px;
+    padding : 5px 10px 5px 10px;
+}
+
+.rating {
+    color: #F3B519;
+    cursor: pointer;
+    font-size: 28px;
+  }
+  
+  .rating i:hover ~ i {
+    color: #ccc;
+  }
+
+/*=============== review ===============*/
+/* review form */
+.review_form {
+    position: fixed;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 1000;
+    background-color: hsla(230, 75%, 15%, .1); /* Background blue when clicking on search or profile */
+    backdrop-filter: blur(24px);
+    -webkit-backdrop-filter: blur(24px); /* For safari */
+    padding: 8rem 1.5rem 0;
+    opacity: 0;
+    pointer-events: none;
+    transition: opacity .4s;
+  }
+
+  .review__close {
+    position: absolute;
+    top: 2rem;
+    right: 2rem;
+    font-size: 1.5rem;
+    color: var(--black-color);
+    cursor: pointer;
+  }
+
+  .nav__review
+  {
+    font-size: 1.25rem;
+    color: var(--black-color);
+    cursor: pointer;
+    transition: color .4s;
+  }
+
+
+.review__form  {
+    display: grid;
+  }
+  
+.review__form {
+  background-color: var(--background-color-light-grey);
+  padding: 2rem 1.5rem 2.5rem;
+  box-shadow: 0 8px 32px hsla(230, 75%, 15%, .2);
+  border-radius: 1rem;
+  row-gap: 0.4rem;
+  text-align: center;
+  transform: translateY(-1rem);
+  transition: transform .4s;
+  margin: 0px 20%;
+}
+
+.review__title {
+  font-size: var(--h2-font-size);
+  color: var(--black-color);
+}
+
+
+.review__label {
+  display: block;
+  text-align: initial;
+  color: var(--black-color);
+  font-weight: 500;
+  margin-bottom: .25rem;
+}
+
+.review__input {
+  width: 100%;
+  background-color: var(--background-color-light-grey);
+  border: 2px solid hsl(230, 25%, 80%);
+  padding: 1rem;
+  border-radius: .5rem;
+  color: var(--fonts-black-color);
+  resize: vertical;
+  max-height: 300px;
+  min-height: 200px;
+
+}
+
+.review__signup {
+  margin-bottom: .5rem;
+}
+
+.review__signup a {
+  color: var(--primary-color-1);
+}
+
+  
+  .review__button {
+    display: inline-block;
+    background-color: var(--primary-color-1);
+    width: 100%;
+    color: #fff;
+    font-weight: 600;
+    padding: 1rem;
+    border-radius: .5rem;
+    cursor: pointer;
+    transition: box-shadow .4s;
+  }
+  
+  .review__button:hover {
+    box-shadow: 0 4px 24px hsla(230, 75%, 40%, .4);
+  }
+  
+  /* Show review */
+  .show-review {
+    opacity: 1;
+    pointer-events: initial;
+  }
+  
+  .show-review .review__form {
+    transform: translateY(0);
+  }
+  
+  .review_text {
+      resize: none;
+  }
+
+  .warning {
+    background-color: #bf476f;
+    font-weight: bold;
+    font-size: larger;
+    color: #FFFFFF;
+    display: inline;
+    margin: 0% 30%;
+    border-radius: 20px;
+  }
+
+  /* Responsive page */
+  
+  @media screen and (max-width: 800px) {
+      .prodetails {
+          flex-direction: column;
+          align-items: center;
+          padding: 0;
+      }
+      .single-pro-details {
+          text-align: center;
+      }
+      .prodetails .single-pro-image {
+          width: 95vw;
+          margin-right: 0px;
+      }
+      .prodetails .single-pro-details h4 {
+          padding: 10px 0;
+          min-width: 100%;
+      }
+      .formProduct {
+          display: flex;
+          justify-content: center;
+      }
+      .prodetails .single-pro-details {
+          width: 95%;
+          padding-top: 30px;
+      }
+      .prodetails .single-pro-details input {
+          margin: 0;
+          margin-right: 15px;
+      }
+      .prodetails .single-pro-details button {
+          margin: 0;
+      }
+  }
+
+  /* editPost */
+.deletePostButton,
+.editPostButton,
+.modifPost {
+  padding: 7px 10px;
+  color: white;
+  font-weight: 600;
+  border-radius: 7px;
+  transition: 0.2s ease;
+}
+.deletePostButton {
+  background-color: #D04848; 
+}
+.editPostButton {
+  background-color: #40679E;
+}
+.deletePostButton:hover {
+  background-color: #a13232; 
+}
+.editPostButton:hover {
+  background-color: #2e5388;
+}
+.deletePostButton:active,
+.editPostButton:active,
+.modifPost:active {
+  transform: scale(0.97);
+}
+.editPost {
+  display: none;
+}
+.editPost textarea {
+  resize: none;
+  width: 300px;
+  margin-top: 20px;
+  height: 150px;
+  margin-top: 1;
+  border-radius: 5px;
+  border: 2px solid #eee;
+  padding: 10px;
+}
+
+.editPost textarea:focus {
+  border: 1px solid #5BBCFF;
+}
+.editPostAppear {
+  display: block;
+}
+
+.modifPost {
+  display: block;
+  margin-top: auto;
+  margin-top: 10px;
+  background-color: #711f8d;
+}
+.modifPost:hover {
+  background-color: #4c125f;
+}
+
+.AddToLibrary {
+  display: flex;
+  flex-direction: column;
+}
+.AddToLibrary select {
+  width: 200px;
+  padding: 10px 15px;
+  margin: 10px 0;
+  color: black;
+  font-weight: 600;
+  border: 2px solid #7EA1FF;
+  background: none;
+  border-radius: 5px;
+}
+.submitAddLibrary {
+  width: 100px;
+  color: white;
+  margin-bottom: 20px;
+}
+
+.buttonCompleted {
+  background-color: #6BCB77;
+}
+.buttonCompleted:hover {
+  background-color: #3dad4c;
+}
+.buttonNotCompleted {
+  background-color: #FF6B6B;
+}
+.buttonNotCompleted:hover {
+  background-color: #da4b4b;
+}

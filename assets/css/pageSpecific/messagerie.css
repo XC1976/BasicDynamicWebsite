@@ -1,0 +1,132 @@
+main {
+    margin-top: 110px;
+    display: flex;
+    justify-content: center;
+}
+
+main > * {
+    margin: 0px 10px;
+}
+.discu {
+    display: flex;
+    align-items: flex-start;
+    padding: 10px;
+    border: 1px solid #c9c9c9;
+    border-radius: 10px;
+    margin-bottom: 10px;
+    background-color: #f5f5ff;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.avatar {
+    color: black;
+    text-align: center;
+    margin-right: 20px;
+    min-width: 100px;
+}
+.avatar div {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.avatar img {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    margin-bottom: 5px;
+}
+.username {
+    color: #666;
+}
+.user-info {
+    text-align: center;
+}
+.content {
+    margin-top: 10px;
+}
+
+.time {
+    color: #666;
+    font-size: 12px;
+    margin-bottom: 10px;
+}
+.users {
+    max-width: 20%;
+    min-width: 20%;
+    max-height: 800px;
+    overflow-y: scroll;
+}
+.messages {
+    max-width: 50%;
+    min-width: 50%;
+    max-height: 800px;
+    padding: 10px;
+    border: 1px solid #c9c9c9;
+    border-radius: 10px;
+    margin-bottom: 10px;
+    background-color: #f5f5ff;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+
+}
+
+.txtbox {
+    display: flex;
+    justify-content: space-between;
+    padding: 5px;
+    border: 1px solid #c9c9c9;
+    border-radius: 10px;
+    margin-bottom: 10px;
+    background-color: #f5f5ff;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    height: 8%;
+}
+.txt {
+    width: 90%;
+}
+
+.txtbox * {
+    padding: 5px;
+    border-radius: 5px;
+}
+.msgarea {
+    height: 92%;
+    max-height: 700px;
+    min-height: 700px;
+    overflow-y: scroll;
+}
+
+
+.selected {
+    background-color: #dadada;
+}
+.discu:hover {
+    background-color: #dadada;
+}
+.send-btn {
+    padding: 10px 10px;
+    background-color: #e91e63;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: transform 0.2s ease; /* Adding transition for transform property */
+}
+
+.new-discu-btn {
+    width: 100%;
+    padding: 10px 10px;
+    background-color: #e91e63;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: larger;
+    margin: 10px 0px;
+    transition: transform 0.2s ease; /* Adding transition for transform property */
+}
+
+button:active {
+    transform: scale(0.95); /* Applying a scale transform when the button is pressed */
+}
+

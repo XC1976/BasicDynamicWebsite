@@ -1,0 +1,15 @@
+/* style.css includes all CSS needed for components PRESENT ON EVERY PAGES
+such as header navbar, footer...
+*/
+
+/* Basic components that apply to all pages */
+@import url("base/base.css");
+
+/* CSS for navigation bar (header) */
+@import url("components/navbar.css");
+
+/* CSS for footer */
+@import url("components/footer.css");
+
+/* Error msg for login errors */
+@import url("components/errorMsg.css");

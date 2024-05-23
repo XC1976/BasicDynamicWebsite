@@ -1,0 +1,172 @@
+.message {
+    position: relative;
+    top: 2rem;
+    left: 27rem;
+}
+
+.form {
+    display: flex;
+    justify-content: center;
+    position: relative;
+    top: 70px;
+}
+
+.center-box {
+    background: rgba(114, 114, 209, 0.692);
+    padding: 30px;
+    border-radius: 10px;
+
+}
+
+.form-container {
+    margin-top: 20px;
+}
+
+.title-container {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.info {
+    display: flex;
+    justify-content: space-between;
+    margin: 16px;
+
+}
+
+.texts {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 70%; 
+    margin-left: 16px;
+}
+
+.input-zone {
+    width: 100%; 
+    padding: 0.5rem;
+    border: none;
+    border-radius: 10px;
+}
+
+#AUTHOR {
+    width: 250px;
+    height: 30px;
+    border: 1px solid #b5b5dbc4;
+    border-radius: 5px;
+    padding: 5px;
+    font-size: 16px;
+}
+
+ul#authorOptions {
+    position: absolute;
+    background: white;
+    z-index: 100;
+    max-width: 250px;
+    min-width: 250px;
+    list-style: none;
+}
+
+ul#authorOptions li {
+    box-sizing: content-box;
+    padding: 2px 5px 0px 2px;
+    border: 0.3px solid rgba(0, 0, 0, 0.1);
+    cursor: pointer;
+}
+
+ul#authorOptions li:hover {
+    background: rgba(183, 183, 212, 0.493);
+    color: rgba(38, 65, 124, 0.74);
+}
+
+.hidden { 
+    display: none;
+}
+
+#GENRE {
+    width: 250px;
+    height: 2.2rem;
+    border: none;
+    border-radius: 10px;
+    padding: 0 0 0 8px;
+}
+
+.thumbnail {
+    width: 150px;
+    margin: 10px;
+}
+
+.pic {
+    display: flex;
+    align-items: center;
+}
+
+/* btn styling */
+
+.btn {
+    background: rgb(255, 255, 255);
+    padding: 13px;
+    border-radius: 10px;
+    box-shadow: 7px 7px 7px rgba(22, 22, 177, 0.205);
+}
+
+.btn:hover {
+    box-shadow: inset 3px 3px 5px rgba(73, 124, 201, 0.397);
+}
+
+
+/* file selector styling  */
+
+.file_selection {
+    margin-top: 20px;
+    position: relative;
+    margin-bottom: 10px;
+}
+
+.file_selection label {
+    display: block;
+    margin-bottom: 5px;
+    font-size: 16px;
+}
+
+.file_selection input[type="file"] {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #f9f9f9;
+    font-size: 16px;
+    width: 100%;
+}
+
+.file_selection input[type="file"]::-webkit-file-upload-button {
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    background-color: #4CAF50;
+    color: white;
+    font-weight: bold;
+    cursor: pointer;
+    outline: none;
+}
+
+.file_selection input[type="file"]::-moz-file-upload-button {
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    background-color: #4CAF50;
+    color: white;
+    font-weight: bold;
+    cursor: pointer;
+    outline: none;
+}
+
+.file_selection input[type="file"]::-ms-browse {
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    background-color: #4CAF50;
+    color: white;
+    font-weight: bold;
+    cursor: pointer;
+    outline: none;
+}

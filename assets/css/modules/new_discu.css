@@ -1,0 +1,147 @@
+/* new post form */
+.discu {
+    position: fixed;
+
+    top: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 1000;
+    background-color: hsla(230, 75%, 15%, .1); /* Background blue when clicking on search or profile */
+    backdrop-filter: blur(24px);
+    -webkit-backdrop-filter: blur(24px); /* For safari */
+    padding: 8rem 1.5rem 0;
+    opacity: 0;
+    pointer-events: none;
+    transition: opacity .4s;
+  }
+
+  .discu__close {
+    position: absolute;
+    top: 2rem;
+    right: 2rem;
+    font-size: 1.5rem;
+    color: var(--black-color);
+    cursor: pointer;
+  }
+
+  .nav__discu
+  {
+    font-size: 1.25rem;
+    color: var(--black-color);
+    cursor: pointer;
+    transition: color .4s;
+  }
+
+/*=============== discu ===============*/
+.discu__form  {
+  display: grid;
+}
+
+.discu__form {
+  background-color: var(--background-color-light-grey);
+  padding: 2rem 1.5rem 2.5rem;
+  box-shadow: 0 8px 32px hsla(230, 75%, 15%, .2);
+  border-radius: 1rem;
+  row-gap: 1.25rem;
+  text-align: center;
+  transform: translateY(-1rem);
+  transition: transform .4s;
+}
+
+.discu__title {
+  font-size: var(--h2-font-size);
+  color: var(--black-color);
+}
+
+
+.discu__label {
+  display: block;
+  text-align: initial;
+  color: var(--black-color);
+  font-weight: 500;
+  margin-bottom: .25rem;
+}
+
+.discu__largeinput {
+  width: 100%;
+  background-color: var(--background-color-light-grey);
+  border: 2px solid hsl(230, 25%, 80%);
+  padding: 1rem;
+  border-radius: .5rem;
+  color: var(--fonts-black-color);
+  resize: vertical;
+  height: 150px;
+  max-height: 300px;
+
+}
+
+.discu__input {
+    width: 100%;
+    background-color: var(--background-color-light-grey);
+    border: 2px solid hsl(230, 25%, 80%);
+    padding: 1rem;
+    border-radius: .5rem;
+    color: var(--fonts-black-color);
+  }
+.discu__button {
+  display: inline-block;
+  background-color: var(--primary-color-1);
+  width: 100%;
+  color: #fff;
+  font-weight: 600;
+  padding: 1rem;
+  border-radius: .5rem;
+  cursor: pointer;
+  transition: box-shadow .4s;
+}
+
+.discu__button:hover {
+  box-shadow: 0 4px 24px hsla(230, 75%, 40%, .4);
+}
+
+/* Show discu */
+.show-discu {
+  opacity: 1;
+  pointer-events: initial;
+}
+
+.show-discu .discu__form {
+  transform: translateY(0);
+}
+
+.discu_text {
+    resize: none;
+}
+
+/*=============== BREAKPOINTS ===============*/
+/* For medium devices */
+@media screen and (min-width: 576px) {
+  .search,
+  .discu {
+    padding-top: 10rem;
+  }
+
+  .search__form {
+    max-width: 450px;
+    margin-inline: auto;
+  }
+
+  .search__close,
+  .discu__close {
+    width: max-content;
+    top: 5rem;
+    left: 0;
+    right: 0;
+    margin-inline: auto;
+    font-size: 2rem;
+  }
+
+  .discu__form {
+    max-width: 600px;
+    margin-inline: auto;
+  }
+}
+
+.warning {
+  border-color: #bf476f;
+}

@@ -1,0 +1,83 @@
+#overlay {
+    position: fixed;
+    top:0;
+    left:0;
+    right:0;
+    bottom:0;
+    background:  rgba(93, 93, 150, 0.61);
+    z-index: 1;
+    display: none;
+    backdrop-filter: blur(5px);
+}
+
+#overlay.open {
+    display: block !important;
+}
+
+.popup {
+    max-width: 500px;
+    height: auto;
+    padding: 30px;
+    background: rgba(146, 176, 216, 0.884);
+    box-sizing: border-box;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-40%, -65%); 
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    border-radius: 20px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1); 
+}
+
+#popupTitleBox {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px; 
+}
+
+.popup h2 {
+    font-size: 24px; 
+    color: #fff; 
+}
+
+.popup-content {
+    flex-grow: 1; 
+    margin-bottom: 20px; 
+}
+
+#buttons {
+    padding-bottom: 30px;
+    margin-top: 1rem;
+    display: flex;
+    justify-content: space-around;
+}
+
+.btnPopup {
+    width: 140px;
+    height: 30px;
+    border: none;
+    border-radius: 30px;
+    background-color: #2980b9; /* Couleur de fond par défaut */
+    color: #fff; /* Couleur du texte */
+    font-size: 14px; /* Taille de la police */
+    font-weight: bold; /* Poids de la police en gras */
+    text-transform: uppercase; /* Convertit le texte en majuscules */
+    cursor: pointer; /* Change le curseur au survol */
+    transition: background-color 0.3s, color 0.3s; /* Ajoute une transition douce */
+    outline: none; /* Supprime la bordure de focus */
+}
+
+.btnPopup:hover {
+    background-color: #b93a29; /* Couleur de fond au survol */
+}
+
+.btnPopup:active {
+    transform: translateY(1px); /* Légère translation vers le bas au clic */
+}
+
+.btnPopup:focus {
+    box-shadow: 0 0 0 2px #fff, 0 0 0 4px #3498db; /* Ajoute une bordure de focus */
+}
+

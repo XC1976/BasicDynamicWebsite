@@ -1,0 +1,534 @@
+.MainSpecificProfile {
+  width: 100%;
+  margin-top: 120px;
+  min-height: 60vh;
+}
+
+/* Icônes, followers and following, and 4 big categoriesq */
+.MainSpecificProfile ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  align-items: center;
+}
+
+/* Structure code */
+.mainContainer {
+  display: flex;
+}
+.mainContainer .leftPart {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  flex: 3;
+}
+.mainContainer .leftPart img {
+  border-radius: 500px;
+  width: 150px;
+  height: 150px;
+  object-fit: cover;
+  object-position: center;
+}
+.mainContainer .leftPart h2 {
+  margin: 20px 0;
+  font-size: 23px;
+}
+.mainContainer .leftPart ul {
+  margin-bottom: 20px;
+}
+.mainContainer .leftPart ul #followers {
+  margin-right: 20px;
+}
+.mainContainer .leftPart .bio {
+  overflow-wrap: break-word;
+  word-break: break-all;
+}
+
+.rightPart {
+  display: flex;
+  flex-direction: column;
+  flex: 5;
+}
+
+.rightPart nav {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
+.rightPart nav button {
+  margin: 5px 8px 5px 0;
+}
+
+/* Onglet system */
+
+button {
+  border: 0px;
+  border-radius: 5px;
+  padding: 10px 20px;
+}
+
+.tab-content {
+  border: 1px solid;
+  display: none;
+}
+
+.mTop10 {
+  margin-top: 10px;
+}
+
+.active {
+  background: #a0153e;
+  color: #fff;
+}
+
+.tab {
+  display: none;
+}
+
+/* 
+============================
+Buttons multiple choice CSS
+============================
+*/
+.sectionButton {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+.sectionButton button {
+  margin: 3px;
+}
+
+/* 
+==================
+Single review CSS 
+==================
+*/
+
+.singleReviewContainer {
+  min-height: 700px;
+  height: 500px;
+  overflow-y: auto;
+  border: 1px solid #ccc;
+  padding: 30px 40px;
+  border-radius: 5px;
+  margin-bottom: 50px;
+}
+
+.singleReviewStyle {
+  background-color: white;
+  padding: 10px 20px;
+  border-radius: 10px;
+  border: 1px solid #ccc;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1), 0 1px 3px rgba(0, 0, 0, 0.08);
+  margin-bottom: 10px;
+}
+
+.singleReviewStyle .timestampReview {
+  font-size: 13px;
+  color: #3d3b40;
+  margin: 10px 0;
+}
+
+.singleReviewStyle .postLink {
+  margin-bottom: 10px;
+}
+
+.singleReviewStyle .postLink a {
+  text-decoration: underline;
+  color: #1e0342;
+  font-size: 18px;
+  font-weight: 600;
+}
+
+/*  Aimer button + number of likes */
+.likeFlexbox {
+  display: flex;
+  align-items: center;
+}
+
+.AimerBlock {
+  border-radius: 500px;
+  padding: 10px;
+  background-color: rgba(163, 216, 255, 0.1);
+  cursor: pointer;
+  transition: 0.2s ease; /* Adding transition for transform property */
+  margin-right: 10px;
+}
+.AimerBlock img {
+  width: 20px;
+}
+
+.AimerBlock:hover {
+  background-color: rgba(163, 216, 255, 0.5);
+}
+
+.AimerBlock:active {
+  transform: scale(
+    0.9
+  ); /* Applying a scale transform when the button is pressed */
+}
+
+/* Responsive */
+
+@media screen and (max-width: 1200px) {
+  .mainContainer {
+    flex-direction: column;
+    align-items: center;
+  }
+  .mainContainer .leftPart,
+  .mainContainer .rightPart {
+    width: 100%;
+  }
+}
+
+/* 
+==========
+Follow button classes
+=========
+*/
+.followButton,
+.unfollowButton {
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-weight: 600;
+  border-radius: 50px;
+}
+
+.followButton {
+  background: #0091ff;
+  color: #fff;
+}
+.followButton:hover {
+  background: #0371c5;
+}
+
+.unfollowButton {
+  background: #b5c0d0;
+  color: #211951;
+}
+.unfollowButton:hover {
+  background: #8992a0;
+}
+
+/* 
+==========
+Block Unblock Button CSS
+=========
+*/
+.blockButton,
+.unblockButton {
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-weight: 600;
+  border-radius: 50px;
+}
+
+.blockButton {
+  background: #c40c0c;
+  color: #fff;
+}
+.blockButton:hover {
+  background: #a30707;
+}
+
+.unblockButton {
+  background: #b5c0d0;
+  color: #211951;
+}
+.unblockButton:hover {
+  background: #9da6b3;
+}
+
+/* Shrink button */
+.shrinkButton {
+  transition: 0.2s ease;
+}
+.shrinkButton:active {
+  transform: scale(0.95);
+}
+
+/* 
+==============================
+Follow unfollow section
+==============================
+*/
+.suiviSection {
+  display: flex;
+  flex-wrap: wrap;
+}
+.individualPeople {
+  background-color: white;
+  border-radius: 20px;
+  margin-top: 20px;
+  margin-right: 20px;
+  width: 300px;
+  padding: 10px 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.individualPeople h2 {
+  font-size: 22px;
+}
+.individualPeople img {
+  width: 150px;
+  border-radius: 500px;
+}
+.individualPeople button {
+  color: white;
+  background-color: #ff6969;
+  font-weight: 600;
+  transition: 0.2s ease;
+}
+.individualPeople button:hover {
+  background-color: #f04c4c;
+}
+.individualPeople button:active {
+  transform: scale(0.95);
+}
+
+@media screen and (max-width: 1200px) {
+  .MainSpecificProfile {
+    margin-top: 100px;
+  }
+  .individualPeople {
+    width: 100%;
+    margin: 10px 0;
+  }
+  .singleReviewContainer {
+    padding: 0 10px;
+    min-height: 600px;
+  }
+}
+
+.leftPart .generatePDF {
+  font-size: 15px;
+  margin-bottom: 10px;
+  background-color: #401f71;
+  color: white;
+  border-radius: 20px;
+  padding: 10px 15px;
+  font-weight: 600;
+  transition: 0.2s ease;
+}
+.leftPart .generatePDF:hover {
+  background-color: #30135c;
+}
+.leftPart .generatePDF:active {
+  transform: scale(0.97);
+}
+
+.leftPart .changeInfos {
+  margin: 10px;
+  background-color: #E72929;
+  color: white;
+  cursor: pointer;
+  font-weight: 600;
+  border-radius: 20px;
+  font-size: 15px;
+  transition: 0.2s ease;
+}
+.leftPart .changeInfos:hover {
+  background-color: #c41c1c;
+}
+.leftPart .changeInfos:active {
+  transform: scale(0.97);
+}
+
+.changePPForm {
+  display: none;
+  flex-direction: column;
+  background: white;
+  padding: 10px;
+  margin-top: 10px;
+  border-radius: 10px;
+  max-width: 310px;
+}
+
+.changePPForm label,
+.changePPForm input {
+  margin: 5px 0;
+}
+.changePPForm .submit {
+  border-radius: 15px;
+  padding: 7px 10px;
+  width: 50%;
+  margin: auto;
+  margin-top: 5px;
+  color: white;
+  background-color: #7149C6;
+  font-weight: 600;
+  cursor: pointer;
+  transition: 0.2s ease;
+}
+
+.changePPForm .submit:hover {
+  background-color: #53319c;
+}
+.changePPForm .submit:active {
+  transform: scale(0.97);
+}
+
+.appear {
+  display: flex;
+}
+
+.editPPButton {
+  margin-top: 5px;
+  color: #7149C6;
+  font-weight: 600;
+  border-radius: 10px;
+  padding: 10px 15px;
+  background: none;
+  cursor: pointer;
+}
+
+/* Review books */
+.reviewBookIndividual .reviewBody {
+  display: flex;
+  flex-direction: column;
+  background-color: white;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1), 0 1px 3px rgba(0, 0, 0, 0.08);
+  padding: 0 10px;
+  margin-bottom: 20px;
+  display: flex;
+  border-radius: 10px;
+  padding-bottom: 10px;
+}
+.reviewBookIndividual h2 {
+  font-size: 18px;
+  text-decoration: underline;
+}
+.reviewBookIndividual i {
+  color: rgb(243, 181, 25);
+}
+.reviewBookIndividual p {
+  margin: 10px 0;
+}
+
+/* Edit post */
+/* editPost */
+.deletePostButton,
+.editPostButton,
+.modifPost {
+  padding: 7px 10px;
+  color: white;
+  font-weight: 600;
+  border-radius: 7px;
+  transition: 0.2s ease;
+}
+.deletePostButton {
+  background-color: #D04848; 
+}
+.editPostButton {
+  background-color: #40679E;
+}
+.deletePostButton:hover {
+  background-color: #a13232; 
+}
+.editPostButton:hover {
+  background-color: #2e5388;
+}
+.deletePostButton:active,
+.editPostButton:active,
+.modifPost:active {
+  transform: scale(0.97);
+}
+.editPost {
+  display: none;
+}
+.editPost textarea {
+  resize: none;
+  width: 300px;
+  margin-top: 20px;
+  height: 150px;
+  margin-top: 1;
+  border-radius: 5px;
+  border: 2px solid #eee;
+  padding: 10px;
+}
+
+.editPost textarea:focus {
+  border: 1px solid #5BBCFF;
+}
+.editPostAppear {
+  display: block;
+}
+
+.modifPost {
+  display: block;
+  margin-top: auto;
+  margin-top: 10px;
+  background-color: #711f8d;
+}
+.modifPost:hover {
+  background-color: #4c125f;
+}
+
+/* Css of libraries */
+.allLibraries {
+  display: flex;
+  flex-wrap: wrap;
+}
+.individualLibrary {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: white;
+  padding: 20px;
+  border-radius: 20px;
+  width: 200px;
+  height: 200px;
+  box-shadow: 2px 2px 4px rgba(0, 0, 0, 0);
+  position: relative;
+  cursor: pointer;
+  margin-right: 20px;
+}
+.individualLibrary::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5); /* Transparent black color */
+  border-radius: 20px;
+  z-index: 1;
+}
+
+.individualLibrary p {
+  font-size: 20px;
+  font-weight: 600;
+  text-align: center;
+  color: white;
+  z-index: 2;
+}
+.addLibs::before {
+  content: none; /* Remove content */
+  position: static; /* Reset position */
+  top: auto; /* Reset top */
+  left: auto; /* Reset left */
+  width: auto; /* Reset width */
+  height: auto; /* Reset height */
+  background-color: transparent; /* Reset background color */
+  border-radius: 0; /* Reset border radius */
+  z-index: auto; /* Reset z-index */
+}
+.addLibs p {
+  color: black;
+  font-size: 14px;
+}
+
+.individualChallenge {
+  background-color: white;
+  padding: 10px 15px;
+  border-radius: 20px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1), 0 1px 3px rgba(0, 0, 0, 0.08);
+  margin-bottom: 20px;
+}

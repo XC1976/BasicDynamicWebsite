@@ -1,0 +1,74 @@
+.message {
+    position: relative;
+    top: 2rem;
+    left: 27rem;
+}
+
+.form {
+    display: flex;
+    justify-content: center;
+    position: relative;
+    top: 70px;
+}
+
+.center-box {
+    background: rgba(114, 114, 209, 0.692);
+    padding: 30px;
+    border-radius: 10px;
+}
+
+.form-container {
+    margin-top: 20px;
+}
+
+.info {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin: 16px;
+}
+
+.input-zone {
+    width: 100%; 
+    padding: 0.5rem;
+    border: none;
+    border-radius: 10px;
+}
+
+.input-containers {
+margin: 16px 0 16px 0;
+}
+
+.btn {
+    background: rgb(255, 255, 255);
+    padding: 13px;
+    border-radius: 10px;
+    box-shadow: 7px 7px 7px rgba(22, 22, 177, 0.205);
+}
+
+.btn:hover {
+    box-shadow: inset 3px 3px 5px rgba(73, 124, 201, 0.397);
+}
+
+textarea {
+    resize: none;
+}
+
+textarea::-webkit-scrollbar {
+    width: 10px; /* Largeur de la barre de défilement */
+}
+
+textarea::-webkit-scrollbar-track {
+    background: #f1f1f1; /* Couleur de fond de la piste de la barre de défilement */
+}
+
+textarea::-webkit-scrollbar-thumb {
+    background: #f1f1f1; /* Couleur de la poignée de la barre de défilement */
+    border-radius: 5px; /* Bordure arrondie de la poignée */
+}
+
+textarea::-webkit-scrollbar-thumb:hover {
+    background: #d6d6d6; /* Couleur de la poignée de la barre de défilement au survol */
+}
+
+

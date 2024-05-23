@@ -1,0 +1,191 @@
+/* Code specific to orders.php aka "Commandes page" */
+
+main {
+    margin: 130px 0;
+    padding: 0 5vw;
+    min-height: 50vh;
+}
+
+h1 {
+    font-size: 40px;
+}
+
+/* CSS for button tabs */
+.tab {
+    display: none;
+}
+
+.btn {
+    background: none;
+    padding: 15px 15px;
+    margin-right: 8px;
+    font-size: 18px;
+    cursor: pointer;
+    transition: 0.2s ease;
+}
+
+.active {
+    font-weight: 600;
+    text-decoration: underline;
+}
+
+.btn:hover {
+    color: rgb(90, 86, 86);
+}
+
+/* Individual orders style */
+
+.orders {
+    background-color: white;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+    margin-top: 20px;
+    padding: 15px 20px;
+}
+
+.orders img {
+    width: 150px;
+}
+
+.orders .navFlexOrders {
+    display: flex;
+    border-bottom: 1px solid rgb(209, 204, 204);
+    padding: 10px 0;
+}
+
+.orders .navFlexOrders h3,
+.orders .navFlexOrders h4,
+.orders .navFlexOrders p {
+    flex: 2;
+}
+
+.orders .navFlexOrders h4,
+.orders .navFlexOrders p {
+    flex: 1;
+}
+
+.orders .mainCommandBodyFlex {
+    display: flex;
+    justify-content: space-between;
+}
+
+/* Image, titre du livre, et vendeur */
+.orders .mainCommandBodyFlex .mainCommandBodyFlexLeft {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 20px;
+    width: 60%;
+}
+
+.orders .mainCommandBodyFlex .mainCommandBodyFlexLeft h2 {
+    width: 400px;
+    overflow-wrap: break-word;
+    word-break: break-all;
+}
+
+/* Boutton de validation de commande et annulation de commande */
+.orders .mainCommandBodyFlex .mainCommandBodyFlexButton {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 40%;
+}
+.orders .mainCommandBodyFlex .mainCommandBodyFlexButton button {
+    width: 45%;
+    padding: 15px 20px;
+    margin: 10px 0;
+    font-size: 15px;
+    font-weight: 600;
+    border-radius: 10px;
+    color: white;
+    cursor: pointer;
+}
+
+/* Specific CSS to button cancelled and confirmation */
+.commandReceived {
+    background-color: #3AB0FF;
+    transition: 0.2s ease;
+}
+
+.commandReceived:hover {
+    background-color: #2e99e0;
+}
+
+.commandReceived:active {
+    transform: scale(0.97);
+}
+
+.commmandCancelled {
+    background-color: #EB5353;
+    transition: 0.2s ease;
+}
+
+.commmandCancelled:hover {
+    background-color: #bd3f3f;
+}
+
+.commmandCancelled:active {
+    transform: scale(0.97);
+}
+
+/* Mobile responsive */
+
+@media screen and (max-width: 1350px) {
+    .orders .mainCommandBodyFlex .mainCommandBodyFlexLeft {
+        width: 75%;
+    }
+    .orders .mainCommandBodyFlex .mainCommandBodyFlexButton {
+        width: 25%;
+    }
+    .orders .mainCommandBodyFlex .mainCommandBodyFlexButton button {
+        width: 100%;
+    }
+
+    .orders .mainCommandBodyFlex .mainCommandBodyFlexLeft h2  {
+        font-size: 20px;
+    }
+}
+
+@media screen and (max-width: 900px) {
+    * {
+        text-align: center;
+    }
+    main {
+        margin-top: 60px;
+    }
+    main h1 {
+        font-size: 30px;
+    }
+    .orders .mainCommandBodyFlex {
+        flex-direction: column;
+    }
+
+    .orders .mainCommandBodyFlex .mainCommandBodyFlexButton {
+        flex-direction: row;
+        justify-content: space-around;
+        width: 100%;
+    }
+    .orders .mainCommandBodyFlex .mainCommandBodyFlexButton button {
+        width: 45%;
+    }
+
+    .orders .mainCommandBodyFlex .mainCommandBodyFlexLeft {
+        flex-direction: column;
+        width: 100%;
+    }
+
+    .orders .mainCommandBodyFlex .mainCommandBodyFlexLeft h2 {
+        width: 100%;
+        text-align: center;
+    }
+    
+    .navFlexOrders h3 {
+        font-size: 15px;
+    }
+
+    .orders .mainCommandBodyFlex .mainCommandBodyFlexButton button {
+        font-size: 10px;
+    }
+}

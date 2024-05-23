@@ -1,0 +1,84 @@
+table {
+    width: 100%;
+    border-radius: 15px; 
+    overflow: hidden;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    height: 400px;
+}
+
+table th, table td {
+    padding: 10px;
+    border: 1px solid #cccccc;
+    text-align: left;
+}
+
+table th {
+    background-color: #ced8ff;
+    font-weight: bold;
+}
+table td {
+    cursor: pointer;
+}
+
+table tr:hover {
+    background-color: #bbc1da;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.btns {
+    display: flex;
+    flex-direction: row;
+    justify-self: center;
+}
+
+.btns * {
+    width: 300px;
+    padding : 40px;
+    font-size : 24px;
+    margin : 20px;
+    margin-top: 200px;
+    border-radius: 10px;
+    color :  #FFFFFF;
+}
+.bad {
+    background-color: rgb(157, 80, 80);
+}
+
+.good {
+    background-color: rgb(68, 86, 121);
+}
+
+.bad:hover {
+    background-color: rgb(92, 34, 34);
+}
+
+.good:hover {
+    background-color: rgb(44, 56, 80)
+}
+
+.hidden {
+    display: none;
+}
+.txtinput {
+    padding: 10px;
+    margin: 10px;
+    border:rgb(179, 179, 179);
+    border-radius: 10px;
+}
+
+.selected {
+    background-color: #bbc1da;
+}
+.selected:active {
+    background-color: #bbc1da;
+}
+
+h3 {
+    color: white;
+    align-items: center;
+}

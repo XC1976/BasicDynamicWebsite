@@ -1,0 +1,12 @@
+.desc:after {
+    content : "▼";
+  }
+  
+  .asc:after {
+    content : "▲";
+  }
+  
+  .inactive:after {
+    content : " ▲";
+    color: rgba(95, 85, 85, 0.61);
+  }

@@ -1,0 +1,45 @@
+#add {
+
+    margin-top: 3rem;
+}
+
+
+#form {
+    display: flex;
+    justify-content: center;
+    position: relative;
+    top: 20px;
+}
+
+#center-box {
+    background: rgba(114, 114, 209, 0.692);
+    padding: 30px;
+    border-radius: 10px;
+    width: 40vw;
+    height: 30vh ;
+}
+
+.input-zone {
+    width: 100%; 
+    padding: 0.5rem;
+    border: none;
+    border-radius: 10px;
+    margin-bottom: 16px;
+}
+
+.btn {
+    background: rgb(255, 255, 255);
+    padding: 13px;
+    border-radius: 10px;
+    box-shadow: 7px 7px 7px rgba(22, 22, 177, 0.205);
+    margin: 10px 10px 10px 0px;
+}
+
+.btn:hover {
+    box-shadow: inset 3px 3px 5px rgba(73, 124, 201, 0.397);
+}
+
+#btn-container {
+    display: flex;
+    justify-content: center;
+}

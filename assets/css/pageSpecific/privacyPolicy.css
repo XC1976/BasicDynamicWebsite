@@ -1,0 +1,22 @@
+.mainPrivacyPolicySpecific {
+    margin: 100px 100px;
+}
+.mainPrivacyPolicySpecific h1 {
+    margin-bottom: 50px;
+}
+.mainPrivacyPolicySpecific h2 {
+    border-top: black solid 1px;
+    padding-top: 8px;
+    margin: 40px 0;
+}
+.mainPrivacyPolicySpecific p {
+    margin: 10px 0;
+}
+.mainPrivacyPolicySpecific ul li {
+    list-style-type: disc;
+}
+@media screen and (max-width: 680px) {
+    .mainPrivacyPolicySpecific {
+        margin: 80px 20px;
+    }
+}

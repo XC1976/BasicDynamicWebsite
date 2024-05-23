@@ -1,0 +1,28 @@
+INSERT INTO NEWSLETTER(id_nl, subject, paragraph01, paragraph02, is_selected) 
+VALUES (1, 'Vous Nous Manquez ! Revenez Découvrir Nos Nouveautés',
+'Revenez dès maintenant pour explorer l''univers de vos livres préférés en communauté et bien plus encore. Connectez-vous dès aujourd''hui et redécouvrez tout ce que Openreads a à offrir. Si vous avez des questions ou besoin d''assistance, n''hésitez pas à nous contacter.',
+' À très bientôt sur Openreads.uk !Cordialement,L''équipe Openreads',
+ 0);
+
+INSERT INTO NEWSLETTER(subject, paragraph01, paragraph02, paragraph03, is_selected) 
+VALUES ('Ouverture d''OpenReads : Bienvenue dans notre Communauté Littéraire!',
+'Bienvenue dans la révolution littéraire ! Les étagères frémissent d''excitation alors que nous dévoilons l''ouverture tant attendue d''OpenReads, votre sanctuaire ultime pour les bibliophiles et les écrivains. Imaginez un havre numérique où la magie de la littérature s''entremêle avec le pouls vibrant des réseaux sociaux. Avec OpenReads, nous avons tissé ensemble le plaisir intemporel de la lecture avec le frisson du partage et de la connexion avec d''autres passionnés de livres du monde entier. Que vous soyez un écrivain chevronné ou un lecteur vorace avec un penchant pour dénicher des joyaux littéraires, notre plateforme vous invite à plonger tête baissée dans un océan infini d''histoires.',
+' Imaginez ceci : vous êtes affalé dans un fauteuil confortable, tenant une tasse de thé fumante et plongeant dans le dernier chef-d''œuvre qui a capturé votre imagination. Mais attendez, il y a plus ! Avec OpenReads, votre expérience de lecture solitaire se transforme en une conversation animée, bourdonnant d''observations, de recommandations et de débats animés. Plongez dans des fils de discussion où les lecteurs dissèquent les rebondissements de l''intrigue, analysent les motivations des personnages et dénouent les mystères tissés entre les pages. Que vous défendiez ardemment votre protagoniste préféré ou que vous vous engagiez dans une rivalité amicale sur le meilleur genre littéraire, OpenReads est votre scène pour briller en tant que véritable connaisseur littéraire.',
+'Embarquez pour un voyage palpitant à travers le vaste cosmos de la littérature, où chaque tour de page vous rapproche d''âmes sœurs partageant votre passion pour le récit. Avec OpenReads, l''aventure ne s''arrête jamais. Découvrez des trésors littéraires cachés, forgez des amitiés durables et laissez votre imagination s''élever à de nouveaux sommets. Alors, compagnons écrivains et mordus de lecture, rejoignez-nous alors que nous nous lançons dans ce voyage épique au cœur du récit. OpenReads vous attend, où chaque chapitre est une chance de se connecter, d''explorer et de célébrer le pouvoir transformateur de la littérature.',
+ 1);
+
+
+INSERT INTO NEWSLETTER(subject, paragraph01, paragraph02, paragraph03, is_selected) 
+VALUES ('Rencontre Communautaire Exceptionnelle avec Khaled Hosseini',
+'Nous sommes extrêmement enthousiastes de vous annoncer une rencontre communautaire exceptionnelle avec l''éminent auteur Khaled Hosseini. L''auteur renommé de The Kite Runner et A Thousand Splendid Suns se joindra à nous pour une soirée inoubliable de discussion, d''échange d''idées et d''exploration littéraire. Rejoignez-nous pour une plongée profonde dans l''univers captivant de l''écriture de Hosseini, où chaque mot est une invitation à explorer les profondeurs de l''âme humaine.',
+'Au cours de cette soirée, nous aurons l''opportunité unique d''entendre M. Hosseini partager ses réflexions sur son processus d''écriture, ses inspirations et les thèmes intemporels qui animent ses œuvres. Que vous soyez un fervent admirateur de son travail ou simplement curieux d''en apprendre davantage sur l''homme derrière les romans, cette rencontre promet d''être enrichissante et mémorable pour tous.',
+'Nous vous invitons à vous joindre à nous pour cet événement spécial, où la passion pour la littérature se mêlera à la camaraderie de notre communauté. Préparez vos questions, ouvrez vos cœurs et laissez-vous emporter par la magie des mots de Khaled Hosseini. Ensemble, explorons les histoires qui nous unissent et célébrons la puissance de la narration pour créer des liens durables et enrichissants.',
+0);
+
+
+INSERT INTO NEWSLETTER(subject, paragraph01, paragraph02, paragraph03, is_selected) 
+VALUES ('subject03',
+'Nous sommes ravis de vous annoncer la sortie tant attendue du roman Le Chant d''Achille de la talentueuse auteure Madeline Miller. Plongez dans les pages de cette œuvre magistrale qui donne une nouvelle vie à l''épopée antique de la Guerre de Troie, à travers le prisme unique de l''amour entre Achille et Patrocle. Avec une prose envoûtante et une profondeur émotionnelle saisissante, Madeline Miller tisse une histoire captivante qui vous transportera au cœur des intrigues mythiques de l''Antiquité.',
+'Dans Le Chant d''Achille, Miller nous offre bien plus qu''une simple réinterprétation d''un mythe ancien. Elle explore les complexités de l''amour, de l''honneur et du sacrifice à travers les yeux de deux personnages emblématiques. Plongez dans un récit d''une beauté intemporelle où chaque mot résonne avec une puissance émotionnelle et une profondeur philosophique qui captivera votre esprit et touchera votre cœur.',
+'Rejoignez-nous dans cette aventure littéraire épique alors que nous célébrons la sortie de Le Chant d''Achille. Que vous soyez un passionné de mythologie, un amateur de romans historiques ou simplement à la recherche d''une lecture envoûtante, ce livre est un incontournable. Préparez-vous à être transporté dans un monde où les dieux marchent parmi les hommes et où l''amour défie les destins les plus tragiques.',
+0);

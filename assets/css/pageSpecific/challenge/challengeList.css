@@ -1,0 +1,38 @@
+main {
+    min-height: 68vh;
+    margin-top: 100px;
+}
+h1 {
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+.individualChallenge {
+    background-color: white;
+    width: 95vw;
+    padding: 10px 20px;
+    margin: auto;
+    border-radius: 15px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    margin-bottom: 20px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.individualChallenge button {
+    color: white;
+    font-weight: 600;
+    font-size: 20px;
+    border-radius: 12px;
+    padding: 12px 20px;
+    cursor: pointer;
+    transition: 0.2s ease;
+    background-color: #5DEBD7;
+}
+.individualChallenge button:hover {
+    background-color: #39ac9c;
+}
+.individualChallenge button:active {
+    transform: scale(0.97);
+}

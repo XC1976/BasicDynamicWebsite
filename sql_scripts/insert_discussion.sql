@@ -1,0 +1,63 @@
+INSERT INTO DISCUSSION (name, categorie, op) VALUES ('Règles de base', 'rules', 1);
+INSERT INTO DISCUSSION (name, categorie, op) VALUES ('Mise à jour des règles', 'rules', 2);
+INSERT INTO DISCUSSION (name, categorie, op) VALUES ('L''équipe de modération', 'rules', 3);
+INSERT INTO DISCUSSION (name, categorie, op) VALUES ('Présentation de Clément', 'pres', 4);
+INSERT INTO DISCUSSION (name, categorie, op) VALUES ('Présentation de Kyle', 'pres', 5);
+INSERT INTO DISCUSSION (name, categorie, op) VALUES ('Présentation de Yasmine', 'pres', 6);
+INSERT INTO DISCUSSION (name, categorie, op) VALUES ('auteur', 'authr', 7);
+INSERT INTO DISCUSSION (name, categorie, op) VALUES ('roman classique', 'roman', 8);
+INSERT INTO DISCUSSION (name, categorie, op) VALUES ('thriller', 'thril', 9);
+
+INSERT INTO DISCUSSION (name, categorie, op) VALUES ('Presentation des membres', 'pres', 2);
+INSERT INTO DISCUSSION (name, categorie, op) VALUES ('Conseils d''écriture', 'authr', 3);
+INSERT INTO DISCUSSION (name, categorie, op) VALUES ('Nouveaux romans', 'roman', 4);
+INSERT INTO DISCUSSION (name, categorie, op) VALUES ('Thrillers du moment', 'thril', 5);
+INSERT INTO DISCUSSION (name, categorie, op) VALUES ('Dernières nouveautés de science-fiction', 'scifi', 6);
+INSERT INTO DISCUSSION (name, categorie, op) VALUES ('Histoires d''amour', 'love', 7);
+INSERT INTO DISCUSSION (name, categorie, op) VALUES ('Discussions sur les mangas', 'manga', 8);
+INSERT INTO DISCUSSION (name, categorie, op) VALUES ('Événements littéraires à venir', 'event', 9);
+INSERT INTO DISCUSSION (name, categorie, op) VALUES ('Défis d''écriture', 'chall', 10);
+
+INSERT INTO DISCUSSION (name, categorie, op) VALUES ('Règles de publication', 'rules', 11);
+INSERT INTO DISCUSSION (name, categorie, op) VALUES ('Présentation des auteurs', 'pres', 12);
+INSERT INTO DISCUSSION (name, categorie, op) VALUES ('Critiques littéraires', 'authr', 13);
+INSERT INTO DISCUSSION (name, categorie, op) VALUES ('Livres classiques', 'roman', 14);
+INSERT INTO DISCUSSION (name, categorie, op) VALUES ('Suspense et mystère', 'thril', 15);
+INSERT INTO DISCUSSION (name, categorie, op) VALUES ('Exploration spatiale', 'scifi', 16);
+INSERT INTO DISCUSSION (name, categorie, op) VALUES ('Romances contemporaines', 'love', 17);
+INSERT INTO DISCUSSION (name, categorie, op) VALUES ('Discussion sur les animés', 'manga', 18);
+INSERT INTO DISCUSSION (name, categorie, op) VALUES ('Salons du livre', 'event', 19);
+INSERT INTO DISCUSSION (name, categorie, op) VALUES ('Défis de poésie', 'chall', 20);
+
+INSERT INTO DISCUSSION (name, categorie, op) VALUES ('Règles de participation', 'rules', 21);
+INSERT INTO DISCUSSION (name, categorie, op) VALUES ('Présentation de livres préférés', 'pres', 22);
+INSERT INTO DISCUSSION (name, categorie, op) VALUES ('Conseils de rédaction', 'authr', 23);
+INSERT INTO DISCUSSION (name, categorie, op) VALUES ('Littérature classique', 'roman', 24);
+INSERT INTO DISCUSSION (name, categorie, op) VALUES ('Mystères à résoudre', 'thril', 25);
+INSERT INTO DISCUSSION (name, categorie, op) VALUES ('Futurisme et technologie', 'scifi', 21);
+INSERT INTO DISCUSSION (name, categorie, op) VALUES ('Contes de fées modernes', 'love', 2);
+INSERT INTO DISCUSSION (name, categorie, op) VALUES ('Épisodes préférés d''animés', 'manga', 18);
+INSERT INTO DISCUSSION (name, categorie, op) VALUES ('Conférences littéraires', 'event', 19);
+INSERT INTO DISCUSSION (name, categorie, op) VALUES ('Défis d''écriture fantastique', 'chall', 20);
+
+INSERT INTO DISCUSSION (name, categorie, op) VALUES ('Présentation des membres', 'pres', 7);
+INSERT INTO DISCUSSION (name, categorie, op) VALUES ('Les règles du forum', 'rules', 9);
+INSERT INTO DISCUSSION (name, categorie, op) VALUES ('Auteurs célèbres à découvrir', 'authr', 12);
+INSERT INTO DISCUSSION (name, categorie, op) VALUES ('Romans à succès', 'roman', 8);
+INSERT INTO DISCUSSION (name, categorie, op) VALUES ('Thrillers captivants', 'thril', 13);
+INSERT INTO DISCUSSION (name, categorie, op) VALUES ('Science-fiction futuriste', 'scifi', 11);
+INSERT INTO DISCUSSION (name, categorie, op) VALUES ('Amour et relations', 'love', 10);
+INSERT INTO DISCUSSION (name, categorie, op) VALUES ('Discussions sur les mangas', 'manga', 15);
+INSERT INTO DISCUSSION (name, categorie, op) VALUES ('Événements à venir', 'event', 14);
+INSERT INTO DISCUSSION (name, categorie, op) VALUES ('Défis littéraires mensuels', 'chall', 16);
+
+INSERT INTO DISCUSSION (name, categorie, op) VALUES ('Conseils pour écrire un roman', 'roman', 9);
+INSERT INTO DISCUSSION (name, categorie, op) VALUES ('Les meilleurs thrillers à lire', 'thril', 8);
+INSERT INTO DISCUSSION (name, categorie, op) VALUES ('Exploration spatiale et voyages interstellaires', 'scifi', 10);
+INSERT INTO DISCUSSION (name, categorie, op) VALUES ('Histoires d''amour et de passion', 'love', 11);
+INSERT INTO DISCUSSION (name, categorie, op) VALUES ('Découvertes et recommandations de mangas', 'manga', 12);
+INSERT INTO DISCUSSION (name, categorie, op) VALUES ('Prochains salons du livre à ne pas manquer', 'event', 13);
+INSERT INTO DISCUSSION (name, categorie, op) VALUES ('Défis d''écriture créative', 'chall', 14);
+INSERT INTO DISCUSSION (name, categorie, op) VALUES ('Présentation de nouveaux membres', 'pres', 15);
+INSERT INTO DISCUSSION (name, categorie, op) VALUES ('Débats sur l''avenir de la littérature', 'event', 16);
+INSERT INTO DISCUSSION (name, categorie, op) VALUES ('Suggestions de lectures pour l''été', 'roman', 17);

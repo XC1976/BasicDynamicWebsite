@@ -1,0 +1,84 @@
+.big-title {
+    margin-top: 110px;
+    margin-bottom : 20px;
+    display: flex;
+    justify-content: center;
+}
+
+main {
+    margin-top: 120px;
+}
+main input {
+    margin-bottom: 50px;
+    border-bottom: 1px solid #bbc3df;
+    padding: 5px;
+    cursor: pointer;
+}
+
+main form {
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 45px;
+}
+main form .form {
+    padding: 50px 8%;
+    width: 50vw;
+    border-radius: 15px;
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+}
+main form .form .name {
+    margin-bottom: 10px;
+    display: flex;
+    justify-content: space-between;
+}
+main form .form .name input {
+    width: 45%;
+}
+
+
+main .validate {
+    margin-bottom: 0;
+    background-color: #EA1E63;
+    color: white;
+    font-weight: bold;
+    font-size: 20px;
+    padding: 10px;
+    border-radius: 30px;
+    width: 60%;
+    margin: auto;
+    margin-top: 50px;
+}
+main .validate:hover {
+    background-color: #9b0839;
+    transition: background-color 0.2s;
+}
+.captchaDiv h3,
+.captchaDiv input
+{
+    margin: 25px 0 0 0;
+}
+
+@media screen and (max-width: 480px) {
+    main {
+        margin-top: 70px;
+    }
+    main form .form {
+        width: 95vw;
+        padding: 30px 20px;
+    }
+    main form .form .name {
+        flex-direction: column;
+    }
+    main .userTypeChoice {
+        flex-direction: column;
+    }
+    main input {
+        margin-bottom: 25px;
+    }
+    main .validate {
+        margin-bottom: 0;
+    }
+}

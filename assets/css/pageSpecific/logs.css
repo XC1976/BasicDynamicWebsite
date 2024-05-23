@@ -1,0 +1,50 @@
+.logs {
+    position: relative;
+    top: 2rem;
+    left: 0.4rem;
+    padding-bottom: 2rem;
+  }
+
+  .title-container {
+    position: relative;
+    bottom: 1rem;
+    left: 1.5rem;
+    display: flex;
+  }
+
+
+.btn {
+    margin-left: 1.5rem;
+    background: #0f324173;
+    align-self: center;
+    padding: 6px 10px;
+    border-radius: 30px;
+    color: white;
+}
+
+.active {
+    background: #460c7c;
+}
+
+.table-container {
+    margin: 30px;
+    display: flex;
+    width: 85vw;
+}
+
+.tab {
+    border-collapse: collapse;
+    background: #f7f7f7;
+    width: 100%;
+  }
+
+  .tab td, th {
+    width: 10%;
+    padding: 15px 10px;
+    text-align: center;
+    border: none;
+}
+
+.tab th {
+    background-color: #9cbcca73;
+}

@@ -1,0 +1,129 @@
+main {
+    min-height: 63vh;
+    margin-top: 120px;
+}
+h1 {
+    text-align: center;
+}
+
+.books {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+.books div {
+    background-color: white;
+    border-radius: 10px;
+    padding: 5px 15px;
+    margin-top: 10px;
+}
+.books div h2 {
+    font-size: 15px;
+}
+
+.topContainer button {
+    padding: 7px 15px;
+    font-weight: 600;
+    font-size: 15px;
+    border-radius: 5px;
+    background-color: #E72929;
+    color: white;
+    cursor: pointer;
+    transition: 0.2 ease;
+}
+.topContainer button:hover {
+    background-color: #c21b1b;
+}
+.topContainer button:active {
+    transform: scale(0.95);
+}
+
+.interactionLib {
+    display: flex;
+    justify-content: space-around;
+    padding-bottom: 50px;
+    border-bottom: 1px solid #ddd;
+    margin-top: 20px;
+}
+.interactionLib form {
+    display: flex;
+    flex-direction: column;
+    width: 40%;
+    margin: auto;
+}
+.interactionLib .buttonBlue {
+    background-color: #1679AB;
+    color: white;
+    font-weight: 600;
+    padding: 7px 10px;
+    border-radius: 5px;
+}
+.interactionLib input {
+    margin: 10px auto;
+    cursor: pointer;
+}
+.interactionLib div {
+    flex: 1;
+}
+.interactionLib div button {
+    width: 200px;
+    color: white;
+    font-weight: 600;
+    font-size: 18px;
+    padding: 10px 10px;
+    border-radius: 20px;
+    cursor: pointer;
+    transition: 0.2s ease;
+}
+.interactionLib div button:active {
+    transform: scale(0.97);
+}
+.libPublic {
+    background-color: #40A578;
+}
+.libPublic:hover {
+    background-color: #29835a;
+}
+.libPrivate {
+    background-color: #8E3E63;
+}
+.libPrivate:hover {
+    background-color: #7a2b50;
+}
+.textInputRename {
+    padding: 5px 10px;
+    border-radius: 5px;
+}
+.textInputRename:focus {
+    border: 1px solid #1679AB;
+}
+.removeLib {
+    background-color: #DA1212;
+}
+.removeLib:focus {
+    background-color: #ac1212;
+}
+.removeLib:active {
+    transform: scale(0.97);
+}
+
+@media screen and (max-width: 1000px) {
+    .interactionLib {
+        flex-direction: column;
+        align-items: center;
+    }
+    .interactionLib form {
+        display: flex;
+        flex-direction: column;
+        width: 80%;
+        margin: 30px auto;
+    }
+    .interactionLib div button {
+        margin: 10px 0;
+    }
+}
+@media screen and (max-width: 400px) {
+    .books div {
+        width: 98vw; 
+    }
+}

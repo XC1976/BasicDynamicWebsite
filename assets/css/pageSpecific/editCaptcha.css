@@ -1,0 +1,49 @@
+.message {
+    position: relative;
+    top: 2rem;
+    left: 27rem;
+}
+
+.form {
+    display: flex;
+    justify-content: center;
+    position: relative;
+    top: 70px;
+}
+
+.center-box {
+    background: rgba(114, 114, 209, 0.692);
+    padding: 30px;
+    border-radius: 10px;
+
+}
+
+.form-container {
+    margin-top: 20px;
+}
+
+.input-zone {
+    width: 30vw;
+    height: 50px;
+    border: 1px solid #ccccccb7;
+    border-radius: 10px;
+    margin: 16px;
+    padding-left: 8px;
+}
+
+
+.inputRow {
+    padding: 16px 0px 16px 0px;
+}
+
+
+.btn {
+    background: rgb(255, 255, 255);
+    padding: 13px;
+    border-radius: 10px;
+    box-shadow: 7px 7px 7px rgba(22, 22, 177, 0.205);
+}
+
+.btn:hover {
+    box-shadow: inset 3px 3px 5px rgba(73, 124, 201, 0.397);
+}

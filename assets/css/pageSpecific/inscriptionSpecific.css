@@ -1,0 +1,93 @@
+.mainSpecific {
+    margin-top: 120px;
+}
+.mainSpecific input {
+    margin-bottom: 50px;
+    border-bottom: 1px solid #bbc3df;
+    padding: 5px;
+    cursor: pointer;
+}
+.mainSpecific h2 {
+    margin-top: 20px;
+}
+.mainSpecific h3 {
+    margin-top: 20px;
+    font-size: 15px;
+}
+.mainSpecific form {
+    margin-top: 20px;
+    display: flex;
+    margin-bottom: 45px;
+}
+.mainSpecific form .container {
+    padding: 50px 8%;
+    width: 70vw;
+    border-radius: 15px;
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+}
+.mainSpecific form .container .name {
+    margin-bottom: 10px;
+    display: flex;
+    justify-content: space-between;
+}
+.mainSpecific form .container .name input {
+    width: 45%;
+}
+.mainSpecific .userTypeChoice {
+    display: flex;
+    justify-content: space-between;
+}
+.mainSpecific .userTypeChoice .user {
+    flex: 1;
+}
+.mainSpecific .userTypeChoice .author {
+    flex: 1;
+}
+.mainSpecific .userTypeChoice .inputFlex {
+    flex: 4;
+}
+.mainSpecific .validate {
+    margin-bottom: 0;
+    background-color: #EA1E63;
+    color: white;
+    font-weight: bold;
+    font-size: 20px;
+    padding: 10px;
+    border-radius: 30px;
+    width: 60%;
+    margin: auto;
+    margin-top: 50px;
+}
+.mainSpecific .validate:hover {
+    background-color: #9b0839;
+    transition: background-color 0.2s;
+}
+.captchaDiv h3,
+.captchaDiv input
+{
+    margin: 25px 0 0 0;
+}
+
+@media screen and (max-width: 480px) {
+    .mainSpecific {
+        margin-top: 70px;
+    }
+    .mainSpecific form .container {
+        width: 95vw;
+        padding: 30px 20px;
+    }
+    .mainSpecific form .container .name {
+        flex-direction: column;
+    }
+    .mainSpecific .userTypeChoice {
+        flex-direction: column;
+    }
+    .mainSpecific input {
+        margin-bottom: 25px;
+    }
+    .mainSpecific .validate {
+        margin-bottom: 0;
+    }
+}

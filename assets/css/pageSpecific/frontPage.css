@@ -1,0 +1,118 @@
+/*----- TITLES OF BOTH SECTIONS ----- */
+.main-title {
+    display: flex;
+    justify-content: space-between;
+}
+
+/* ----- ANALYTICS SECTION CSS ----- */
+
+/* the whole row */
+.main-cards {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    gap: 18px;
+    margin: 20px 0;
+}
+
+/* general card css */
+.card {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    padding: 40px 20px 40px 20px;
+    margin: 20px 10px 20px 0px;
+    color: rgb(75, 75, 112);
+    border-radius: 30px;
+    box-shadow: 0 6px 7px -4px rgba(0,0,0,0.2);
+}
+
+/* general inner card css */
+.card-inner {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+/* icon sizing */
+.card-inner > span {
+    font-size: 40px;
+}
+
+/* each individual card as an element of the card class*/
+.card:first-child {
+    background-color: rgb(132, 152, 241);
+}
+
+.card:nth-child(2) {
+    background-color: rgb(225, 241, 132);
+}
+
+.card:nth-child(3) {
+    background-color: rgb(216, 132, 241);
+}
+
+.card:nth-child(4) {
+    background-color: rgb(241, 132, 132);
+}
+
+
+/* ----- REPORTS TABLE CSS ----- */
+
+/* self explanatory */
+.tab {
+  border-collapse: collapse;
+  margin: 0 0 0 1rem;
+  background: #f7f7f7;
+}
+
+/* self explanatory */
+.tab-container {
+  position: relative;
+  top: 3rem;
+  padding-bottom: 2rem;
+}
+
+/* for all cells including headers */
+.tab td, th {
+    width: 10%;
+    padding: 20px;
+    text-align: center;
+    border: none;
+}
+
+/* headers */
+.tab th {
+    background-color: #9cbcca73;
+}
+
+
+/* the tabs that allow user to go through the different tables */
+.btn {
+    border: none;
+    background-color: #0f324173;
+    color: #FFF;
+    font-weight: 500;
+    border-radius: 5px 5px 0px 0px;
+    width: 130px;
+    text-align: center;
+    padding: 8px 6px 8px 6px;
+    margin: 10px 8px 0px 0px;
+    position: relative;
+    top: 0.2px;
+    left: 16px;
+}
+
+/* active tab */
+.btn.active {
+    background-color: #9cbcca73;
+    color: black;
+}
+
+/* not currently used but sql query should be changed to display different info so this will be useful later */
+.userPic {
+    width:50px;
+    height: auto;
+    border-radius: 50%;
+    aspect-ratio: 1;
+}
+

@@ -1,0 +1,13 @@
+INSERT INTO GENRE (id_genre, name, description) VALUES (1, 'Roman', 'Un récit fictif long et complexe qui explore des thèmes variés et développe des personnages.');
+INSERT INTO GENRE (id_genre, name, description) VALUES (2, 'Poésie', 'Un style d''écriture qui utilise une forme esthétique et rythmée pour exprimer des émotions et des idées.');
+INSERT INTO GENRE (id_genre, name, description) VALUES (3, 'Théâtre', 'Des œuvres écrites pour être jouées sur scène, mettant en scène des dialogues et des actions.');
+INSERT INTO GENRE (id_genre, name, description) VALUES (4, 'Nouvelle', 'Un récit court qui se concentre sur un événement ou un personnage spécifique avec peu de développement.');
+INSERT INTO GENRE (id_genre, name, description) VALUES (5, 'Science-fiction', 'Exploration de concepts scientifiques et technologiques avancés, souvent dans des mondes futuristes ou alternatifs.');
+INSERT INTO GENRE (id_genre, name, description) VALUES (6, 'Fantasy', 'Un genre qui incorpore des éléments magiques, surnaturels ou fantastiques dans un cadre imaginaire.');
+INSERT INTO GENRE (id_genre, name, description) VALUES (7, 'Policier', 'Des récits axés sur des enquêtes et des mystères, mettant en scène des détectives ou des criminels.');
+INSERT INTO GENRE (id_genre, name, description) VALUES (8, 'Romance', 'Des histoires centrées sur des relations amoureuses et les émotions qui les accompagnent.');
+INSERT INTO GENRE (id_genre, name, description) VALUES (9, 'Horreur', 'Des récits destinés à susciter la peur et le malaise chez le lecteur, souvent avec des éléments surnaturels ou macabres.');
+INSERT INTO GENRE (id_genre, name, description) VALUES (10, 'Biographie', 'Des récits de la vie d''une personne réelle, écrits par un auteur autre que le sujet.');
+INSERT INTO GENRE (id_genre, name, description) VALUES (11, 'Dystopie', 'Des mondes imaginaires où la société est dégénérée ou oppressante, souvent utilisée pour critiquer les tendances actuelles.');
+INSERT INTO GENRE (id_genre, name, description) VALUES (12, 'Thriller', 'Des récits remplis de suspense et d''excitation, souvent avec des éléments de danger et de tension.');
+INSERT INTO GENRE (id_genre, name, description) VALUES (13, 'BD et Manga', 'Bandes dessinées et mangas, souvent illustrés, racontant des histoires variées dans différents styles artistiques.');

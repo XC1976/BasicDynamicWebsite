@@ -1,0 +1,47 @@
+/* Error Msg style */
+.errorMsg {
+  background-color: var(--primary-color-2);
+  color: white;
+  font-weight: bold;
+  margin: 0 auto 30px auto;
+  border-radius: 5px;
+  width: 80vw;
+  padding: 20px;
+  font-size: 18px;
+  display: flex;
+  justify-content: space-between;
+  text-align: center;
+}
+.errorMsg p {
+  flex: 50;
+}
+.errorMsg form {
+  flex: 1;
+  margin-right: 10px;
+  margin-top: 5px;
+}
+.errorMsg button {
+  background-color: var(--primary-color-2);
+  width: 30px;
+  height: 30px;
+  border-radius: 999px;
+  cursor: pointer;
+}
+.errorMsg img {
+  width: 30px;
+  cursor: pointer;
+}
+@media screen and (max-width: 480px) {
+  .errorMsg {
+    font-size: 14px;
+    padding: 10px;
+    width: 90vw;
+  }
+  .errorMsg p {
+    text-align: center;
+  }
+  .errorMsg button {
+    width: 15px;
+    height: 15px;
+  }
+}
